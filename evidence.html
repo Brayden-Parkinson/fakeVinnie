@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -33,50 +33,93 @@
 
     <main>
       <section class="hero">
-        <p class="hero__badge">Tabulated doubt</p>
-        <h1>Evidence matrix</h1>
+        <p class="hero__badge">Evidentiary Archive · Section III</p>
+        <h1>Comprehensive Evidence Repository</h1>
         <p>
-          Everything we have compiled to gently insist that Vinnie might be less Italian
-          than previously advertised. Tabs provided for rapid browsing by impatient
-          prosecutors and friends alike.
+          A systematically organized compendium of all documentation, testimony, and behavioral 
+          observations compiled during inquiry into Subject Vincent Paglioni&rsquo;s contested 
+          Italian heritage. Materials categorized by type for efficient review. Notarized documents: 
+          zero. Suspicion-inducing artifacts: numerous. Cross-referencing encouraged.
         </p>
       </section>
 
       <section>
-        <p class="section-title">Evidence Browser</p>
-        <h2 class="section-heading">Toggle between our exhibit tabs</h2>
+        <p class="section-title">Categorical Evidence Browser</p>
+        <h2 class="section-heading">Exhibits organized by classification for systematic review</h2>
         <div class="evidence-tabs">
           <div class="tab-list">
-            <button class="tab-button is-active" data-tab-target="documents">Documents</button>
-            <button class="tab-button" data-tab-target="behavior">Behavior</button>
-            <button class="tab-button" data-tab-target="digital">Digital trail</button>
+            <button class="tab-button is-active" data-tab-target="documents">Documentary Evidence</button>
+            <button class="tab-button" data-tab-target="behavior">Behavioral Patterns</button>
+            <button class="tab-button" data-tab-target="digital">Digital Artifacts</button>
+            <button class="tab-button" data-tab-target="testimony">Witness Testimony</button>
           </div>
 
           <div class="tab-panel is-active" data-tab-panel="documents">
             <article class="card">
-              <span class="badge">Doc 1</span>
-              <h3>Grandparent roster</h3>
+              <span class="badge">Document D-001</span>
+              <h3>Grandparental Registry — Status: Unverified</h3>
               <p>
-                Names supplied: Vincent John Paglioni and Vittoria Cerretano. Supporting
-                forms supplied: none whatsoever. The roster remains theoretical.
+                Subject claims Italian descent via grandparents Vincent John Paglioni and Vittoria 
+                Cerretano. Supporting documentation requested November 2024. Documentation received: 
+                none. Follow-up requests: three. Responses: zero. Bureau classification: 
+                &ldquo;Theoretical ancestry pending material proof.&rdquo;
+              </p>
+              <p class="text-muted">
+                <strong>Missing Items:</strong> Birth certificates, marriage licenses, immigration 
+                records, baptismal documentation, photographs, sworn affidavits, or literally any 
+                piece of paper older than Subject.
               </p>
             </article>
             <article class="card">
-              <span class="badge">Doc 2</span>
-              <h3>Winery biography</h3>
+              <span class="badge">Document D-002</span>
+              <h3>Winery Website Analysis — Authenticity: Contested</h3>
               <p>
-                The Cantina Cerretano page is heartfelt, features sepia photos, and
-                contains no verifiable data points. Strong vibes, weak citations.
+                <em>Cantina Cerretano</em> website presents narrative of family winemaking tradition 
+                dating to 1889. Page features: sepia-toned photography, emotionally compelling prose, 
+                mentions of Domenico &ldquo;Facciabella&rdquo; Cerretano (1889-1967). Lacks: ISBN 
+                numbers, library catalog entries, historical society endorsements, government stamps, 
+                or any verification mechanism predating GoDaddy.
+              </p>
+              <p class="text-muted">
+                <strong>Assessment:</strong> Website optimized for sentiment, not scholarship. 
+                Typographic choices excellent. Evidentiary value: pending independent verification 
+                from Italian municipal archives (request submitted, response anticipated: never).
               </p>
             </article>
             <article class="card">
-              <span class="badge">Meter</span>
-              <h3>Documentation confidence</h3>
+              <span class="badge">Document D-003</span>
+              <h3>Absence of Ellis Island Records</h3>
               <p>
-                Current rating combines all PDFs (zero) and voice notes (two).
+                Standard Italian-American heritage includes immigration documentation via Ellis Island 
+                (operational 1892-1954). Bureau conducted thorough search of publicly available records. 
+                Results: zero matches for &ldquo;Paglioni&rdquo; or &ldquo;Cerretano&rdquo; matching 
+                Subject&rsquo;s claimed timeline. Alternative hypothesis: family entered via Canada, 
+                or Subject fabricated entire immigration narrative.
               </p>
-              <div class="likelihood-meter" data-confidence="12">
-                <p>Authenticity score</p>
+              <p class="pill">Documentation Gap: Critical</p>
+            </article>
+            <article class="card">
+              <span class="badge">Document D-004</span>
+              <h3>Italian Language Proficiency Certificate — Not Found</h3>
+              <p>
+                Authentic Italian heritage typically accompanied by: (a) conversational fluency in 
+                ancestral dialect, (b) ability to curse in grandmother&rsquo;s tongue, (c) opinions 
+                about correct pasta cooking time. Subject demonstrates: (d) none of above. Duolingo 
+                account status: unconfirmed. Translation: Subject cannot argue about football in Italian, 
+                highly suspicious for alleged Mediterranean descendant.
+              </p>
+            </article>
+            <article class="card">
+              <span class="badge">Confidence Assessment</span>
+              <h3>Documentary Evidence Reliability Index</h3>
+              <p>
+                Aggregate scoring of all submitted documentation. Formula: (Government Docs × 10) + 
+                (Notarized Papers × 7) + (Family Photos × 3) + (Websites × 0.5) - (Missing Items × 2). 
+                Current calculation: (0 × 10) + (0 × 7) + (0 × 3) + (1 × 0.5) - (47 × 2) = <strong>-93.5</strong>. 
+                Negative score unprecedented in Bureau history.
+              </p>
+              <div class="likelihood-meter" data-confidence="8">
+                <p>Documentary Authenticity Rating</p>
                 <div class="meter-bar"><span class="meter-fill"></span></div>
               </div>
             </article>
@@ -84,29 +127,73 @@
 
           <div class="tab-panel" data-tab-panel="behavior">
             <article class="card">
-              <span class="badge">B1</span>
-              <h3>Poker disguise</h3>
+              <span class="badge">Behavioral Evidence B-001</span>
+              <h3>The Poker Night Disguise Incident (March 2023)</h3>
               <p>
-                Documented instance of Vinnie wearing hat + sunglasses while indoors to
-                bluff at cards. Multiplied suspicion by 3.
+                Eyewitness testimony confirms Subject arrived at social gathering equipped with: 
+                (1) wide-brim fedora, (2) dark-tinted sunglasses, (3) suspiciously neutral affect. 
+                Event occurred indoors, at night, with overhead lighting. No meteorological or medical 
+                justification for disguise apparatus. Subject&rsquo;s explanation: &ldquo;for the love 
+                of the game.&rdquo; Panel assessment: inadequate justification for identity concealment.
+              </p>
+              <p class="text-muted">
+                <strong>Psychological Profile:</strong> Individual comfortable adopting false personas 
+                for recreational purposes may demonstrate broader authenticity deficits. Correlation 
+                with fabricated heritage: statistically significant (p &lt; 0.05).
               </p>
             </article>
             <article class="card">
-              <span class="badge">B2</span>
-              <h3>Typing marathon</h3>
+              <span class="badge">Behavioral Evidence B-002</span>
+              <h3>Extended Typing Indicator Phenomenon</h3>
               <p>
-                The long response gap preceding his genealogy paragraph suggests
-                real-time fiction drafting.
+                During October 17th group chat exchange, Subject exhibited typing indicator for 
+                47 consecutive seconds prior to transmitting genealogical information. Behavioral 
+                analysis suggests: (a) consultation of external resources, (b) real-time narrative 
+                construction, or (c) existential crisis. Comparison data: truthful responses average 
+                8-12 seconds. Subject exceeded threshold by 292%.
+              </p>
+              <p class="pill">Response Time Anomaly: Severe</p>
+            </article>
+            <article class="card">
+              <span class="badge">Behavioral Evidence B-003</span>
+              <h3>Defensive Posturing Analysis</h3>
+              <p>
+                Subject&rsquo;s rhetorical strategy includes: frequent invocation of unnamed relatives, 
+                deflection via humor, strategic deployment of Italian food terminology. Notably absent: 
+                offers to provide documentation, suggestions for DNA testing, or invitations to meet 
+                alleged Italian cousins. Bureau interprets defensive posture as consciousness of 
+                evidentiary weakness.
               </p>
             </article>
             <article class="card">
-              <span class="badge">Meter</span>
-              <h3>Behavior index</h3>
+              <span class="badge">Behavioral Evidence B-004</span>
+              <h3>Italian Cultural Knowledge Assessment</h3>
               <p>
-                Weighted average of theatrics, deflection, and hat-based secrecy.
+                Informal testing reveals Subject&rsquo;s Italian cultural literacy limited to: 
+                (a) menu items, (b) Sopranos references, (c) basic hand gestures. Cannot name: 
+                Italian president, regions beyond &ldquo;north&rdquo; and &ldquo;south&rdquo;, 
+                or correct pronunciation of &ldquo;bruschetta.&rdquo; Authentic Italians score 
+                minimum 70% on Bureau&rsquo;s Cultural Authenticity Quiz. Subject scored: 23%.
               </p>
-              <div class="likelihood-meter" data-confidence="28">
-                <p>Italian likelihood</p>
+              <p class="text-muted">
+                <strong>Quiz Results:</strong> Correctly identified: cappuccino, Lamborghini. 
+                Incorrectly identified: Italian capital (guessed Milan), Italian population 
+                (guessed &ldquo;a lot&rdquo;), meaning of &ldquo;Facciabella&rdquo; (guessed 
+                &ldquo;beautiful face,&rdquo; actually means &ldquo;good-looking face&rdquo;&mdash;close, 
+                but insufficient for heritage validation).
+              </p>
+            </article>
+            <article class="card">
+              <span class="badge">Confidence Assessment</span>
+              <h3>Behavioral Consistency Rating</h3>
+              <p>
+                Composite score evaluating: disguise incidents, response time patterns, cultural 
+                knowledge, and defensive behaviors. Scale: 0-100, where 100 indicates behavior 
+                consistent with authentic heritage. Subject score: 22. Interpretation: behavioral 
+                patterns more consistent with enthusiastic tourism than ancestral connection.
+              </p>
+              <div class="likelihood-meter" data-confidence="22">
+                <p>Behavioral Authenticity Index</p>
                 <div class="meter-bar"><span class="meter-fill"></span></div>
               </div>
             </article>
@@ -114,29 +201,145 @@
 
           <div class="tab-panel" data-tab-panel="digital">
             <article class="card">
-              <span class="badge">D1</span>
-              <h3>Web presence</h3>
+              <span class="badge">Digital Evidence E-001</span>
+              <h3>Website Domain Analysis — cantinacerretano.com</h3>
               <p>
-                Only supporting evidence is a single website with a beautiful serif font.
-                A design flex does not equal a passport.
+                WHOIS lookup reveals domain registered March 2019 via GoDaddy. SSL certificate: valid. 
+                Historical authenticity: questionable. Subject claims family winery operational since 
+                1889. 130-year gap between alleged founding and digital presence remains unexplained. 
+                Working theory: either website created recently, or Cerretano family remarkably late 
+                adopters of internet technology (suspect).
+              </p>
+              <p class="text-muted">
+                <strong>Technical Assessment:</strong> Site built using modern CMS. Photographs exhibit 
+                professional color grading. Domain privacy protection: enabled. Interpretation: someone 
+                invested significant effort in online credibility theater.
               </p>
             </article>
             <article class="card">
-              <span class="badge">D2</span>
-              <h3>Citation needed</h3>
+              <span class="badge">Digital Evidence E-002</span>
+              <h3>Social Media Heritage Verification</h3>
               <p>
-                No LinkedIn humblebrag mentioning &ldquo;third-generation vintner&rdquo;. Suspicious
-                absence noted.
+                Comprehensive scan of Subject&rsquo;s social media presence reveals: zero photos in 
+                Italy, zero posts in Italian language, zero interactions with Italian cultural 
+                organizations. Facebook &ldquo;About&rdquo; section mentions: beer preferences, 
+                poker skills, favorite TV shows. Mentions Italian heritage: zero times. LinkedIn 
+                &ldquo;Heritage&rdquo; field: blank. Instagram bio: no Italian flag emoji.
+              </p>
+              <p class="pill">Digital Heritage Footprint: Nonexistent</p>
+            </article>
+            <article class="card">
+              <span class="badge">Digital Evidence E-003</span>
+              <h3>Absence of Ancestry.com Account Activity</h3>
+              <p>
+                Standard protocol for individuals researching heritage: create Ancestry.com account, 
+                upload family tree, connect with distant relatives. Subject&rsquo;s account activity: 
+                unverifiable (likely nonexistent). Italian cousin connections: zero confirmed. DNA 
+                test results: not provided. Family tree documentation: absent. Conclusion: either 
+                Subject uninterested in validating claims, or claims fabricated and Subject avoiding 
+                documentation trail.
               </p>
             </article>
             <article class="card">
-              <span class="badge">Meter</span>
-              <h3>Digital footprint</h3>
+              <span class="badge">Digital Evidence E-004</span>
+              <h3>Email Header Analysis — Group Chat Evidence</h3>
               <p>
-                Probability that the online trail proves anything definitive.
+                Forensic review of October 17th message metadata reveals Subject sent heritage 
+                claims from device previously used for: fantasy football management, pizza delivery 
+                orders, and Amazon purchases (Italian cookbooks: zero; poker supplies: three). 
+                Browser history (voluntarily disclosed, then immediately retracted): includes searches 
+                for &ldquo;Italian last names,&rdquo; &ldquo;how to pronounce Cerretano,&rdquo; 
+                and &ldquo;is 23andMe accurate.&rdquo;
               </p>
-              <div class="likelihood-meter" data-confidence="9">
-                <p>Proof strength</p>
+            </article>
+            <article class="card">
+              <span class="badge">Confidence Assessment</span>
+              <h3>Digital Evidence Strength Evaluation</h3>
+              <p>
+                Aggregate assessment of Subject&rsquo;s online evidentiary footprint. Factors: website 
+                credibility, social media consistency, DNA documentation, digital paper trail. Score 
+                reflects paucity of verifiable digital evidence supporting Italian heritage claims. 
+                Single website insufficient counterweight to comprehensive absence of supporting materials.
+              </p>
+              <div class="likelihood-meter" data-confidence="12">
+                <p>Digital Proof Reliability</p>
+                <div class="meter-bar"><span class="meter-fill"></span></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="tab-panel" data-tab-panel="testimony">
+            <article class="card">
+              <span class="badge">Witness Statement W-001</span>
+              <h3>Brayden Parkinson — Chief Investigator</h3>
+              <p>
+                <em>&ldquo;Everything is a lie. Don&rsquo;t know what to believe anymore. He typed 
+                for FORTY-SEVEN SECONDS before responding about his grandmother. Nobody needs that 
+                long to remember their actual grandmother&rsquo;s name. Also, the poker disguise? 
+                That was the moment I knew: this man is comfortable with deception.&rdquo;</em>
+              </p>
+              <p class="text-muted">
+                <strong>Credibility Assessment:</strong> Witness demonstrates clear observational 
+                skills, strong attention to typing indicator duration, reasonable skepticism. 
+                No apparent bias beyond general friendship-based disappointment. Testimony: reliable.
+              </p>
+            </article>
+            <article class="card">
+              <span class="badge">Witness Statement W-002</span>
+              <h3>Kait Parkinson — Contextual Analyst</h3>
+              <p>
+                <em>&ldquo;Questioning the heritage now? Oof. Yeah, I always wondered about that. 
+                Like, he's never mentioned Italy before last year. Suddenly he's got a whole winery 
+                and four Domenicos? The math isn't mathing. Also noticed he can't roll his R's. 
+                That's supposed to be genetic, right?&rdquo;</em>
+              </p>
+              <p class="text-muted">
+                <strong>Credibility Assessment:</strong> Witness provides valuable timeline context. 
+                Observation re: recent emergence of Italian identity particularly relevant. Linguistic 
+                analysis (R-rolling inability) noted for future investigation. Testimony: credible.
+              </p>
+            </article>
+            <article class="card">
+              <span class="badge">Witness Statement W-003</span>
+              <h3>Anonymous Poker Night Attendee</h3>
+              <p>
+                <em>&ldquo;The hat and sunglasses thing was wild. We were in Steve's basement. 
+                There were like six of us. No cameras. And Vinnie shows up dressed like he's entering 
+                WITNESS PROTECTION. Said it was 'for the love of the game.' Brother, we were playing 
+                for quarters. What game requires that level of anonymity? Anyway, he lost $3.50 and 
+                blamed it on the sunglasses. Convenient.&rdquo;</em>
+              </p>
+              <p class="pill">Behavioral Red Flag: Documented</p>
+            </article>
+            <article class="card">
+              <span class="badge">Witness Statement W-004</span>
+              <h3>Subject's Own Testimony (Analyzed)</h3>
+              <p>
+                Subject provided following claims during October 17th exchange: (a) grandfather 
+                Vincent John Paglioni, (b) grandmother Vittoria Cerretano, (c) great-grandfather 
+                Domenico &ldquo;Facciabella&rdquo; Cerretano, (d) family winery in Italy, (e) multiple 
+                Italian cousins. Supporting evidence provided for claims (a)-(e): none. Confidence in 
+                own claims: appeared high. Actual evidentiary basis: approaching zero.
+              </p>
+              <p class="text-muted">
+                <strong>Self-Contradiction Analysis:</strong> Subject initially claimed great-grandfather, 
+                later amended to great-great-grandfather, then settled on &ldquo;not totally sure.&rdquo; 
+                Authentic descendants typically certain of generational distance. Uncertainty suggests 
+                improvised genealogy.
+              </p>
+            </article>
+            <article class="card">
+              <span class="badge">Testimony Reliability Index</span>
+              <h3>Witness Credibility Composite Score</h3>
+              <p>
+                Evaluation of all testimonial evidence considering: witness proximity to events, 
+                potential bias, corroboration between accounts, internal consistency. Results: 
+                external witnesses (Parkinsons, poker attendees) demonstrate high reliability. 
+                Subject&rsquo;s self-testimony: low reliability due to vested interest, inconsistencies, 
+                and forty-seven-second typing delays.
+              </p>
+              <div class="likelihood-meter" data-confidence="74">
+                <p>External Witness Credibility</p>
                 <div class="meter-bar"><span class="meter-fill"></span></div>
               </div>
             </article>
@@ -145,27 +348,114 @@
       </section>
 
       <section>
-        <p class="section-title">Visual appendix</p>
-        <h2 class="section-heading">Scenes, screenshots, and diagrams</h2>
+        <p class="section-title">Photographic Documentation</p>
+        <h2 class="section-heading">Visual evidence &amp; illustrative materials</h2>
         <div class="gallery">
           <figure>
             <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=60" alt="Wine barrels in a cellar" />
-            <figcaption>The alleged cellar. Could be stock photography. Who can say.</figcaption>
+            <figcaption>
+              <strong>Exhibit P-001:</strong> Alleged family wine cellar, sourced from 
+              cantinacerretano.com. Reverse image search: pending. Authenticity: disputed. 
+              Alternative theory: Getty Images.
+            </figcaption>
           </figure>
           <figure>
             <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=600&q=60" alt="Person wearing hat and sunglasses indoors" />
-            <figcaption>Artistic recreation of the poker disguise incident.</figcaption>
+            <figcaption>
+              <strong>Exhibit P-002:</strong> Forensic reconstruction of March 2023 poker disguise 
+              incident. Actual photograph withheld to protect Subject&rsquo;s dignity. Hat brim 
+              diameter: estimated 8 inches.
+            </figcaption>
           </figure>
           <figure>
             <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=60" alt="Laptop showing data" />
-            <figcaption>Live look at Brayden Googling &ldquo;can websites lie.&rdquo;</figcaption>
+            <figcaption>
+              <strong>Exhibit P-003:</strong> Investigator B. Parkinson conducting due diligence. 
+              Search query visible on screen: &ldquo;how to verify Italian heritage without asking 
+              for passport.&rdquo;
+            </figcaption>
           </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?auto=format&fit=crop&w=600&q=60" alt="Old documents" />
+            <figcaption>
+              <strong>Exhibit P-004:</strong> What authentic Italian-American documentation looks like. 
+              Note: Subject has provided exactly zero items resembling this photograph.
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1551731409-43eb3e517a1a?auto=format&fit=crop&w=600&q=60" alt="DNA helix" />
+            <figcaption>
+              <strong>Exhibit P-005:</strong> DNA double helix. Subject requested to provide genetic 
+              testing results. Request submitted November 2024. Results received: none. Status: 
+              suspiciously declined.
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1523995462485-3d171b5c8fa9?auto=format&fit=crop&w=600&q=60" alt="Typing on keyboard" />
+            <figcaption>
+              <strong>Exhibit P-006:</strong> Dramatic reenactment of Subject&rsquo;s forty-seven-second 
+              typing delay. Actual screenshot deemed too damning for public display.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <p class="section-title">Statistical Summary</p>
+        <h2 class="section-heading">Evidence compilation by the numbers</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Documentary Evidence Totals</h3>
+            <p>
+              <strong>Birth certificates received:</strong> 0<br/>
+              <strong>Immigration records provided:</strong> 0<br/>
+              <strong>Notarized affidavits:</strong> 0<br/>
+              <strong>Photographs of Italian relatives:</strong> 0<br/>
+              <strong>DNA test results:</strong> 0<br/>
+              <strong>Suspiciously polished websites:</strong> 1<br/>
+              <strong>Vague family stories:</strong> 7+
+            </p>
+            <p class="pill">Documentation Rate: 0.0%</p>
+          </article>
+          <article class="card">
+            <h3>Behavioral Incident Catalog</h3>
+            <p>
+              <strong>Disguise incidents recorded:</strong> 1<br/>
+              <strong>Typing delays exceeding 30 sec:</strong> 4<br/>
+              <strong>Italian phrases correctly used:</strong> 3<br/>
+              <strong>Italian phrases incorrectly used:</strong> 11<br/>
+              <strong>Cultural knowledge quiz score:</strong> 23%<br/>
+              <strong>Defensive posturing events:</strong> 8<br/>
+              <strong>Offers to provide documentation:</strong> 0
+            </p>
+          </article>
+          <article class="card">
+            <h3>Witness Testimony Summary</h3>
+            <p>
+              <strong>Depositions collected:</strong> 4<br/>
+              <strong>Witnesses supporting claims:</strong> 0<br/>
+              <strong>Witnesses expressing doubt:</strong> 3<br/>
+              <strong>Witnesses mentioning disguise:</strong> 2<br/>
+              <strong>Subject contradictions noted:</strong> 5<br/>
+              <strong>Subject consistency rating:</strong> Low<br/>
+              <strong>Panel confidence in testimony:</strong> 18.3%
+            </p>
+          </article>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Tabs closed? Doubt remains.</p>
+      <p>
+        <strong>Evidence Status:</strong> Catalogued &amp; Cross-Referenced · 
+        <strong>Documentation Quality:</strong> Insufficient · 
+        <strong>Recommended Action:</strong> Continued Skepticism
+      </p>
+      <p style="margin-top: 1rem; font-size: 0.85rem;">
+        All evidence available for independent review. Subject welcome to submit contradictory 
+        materials, provided items meet Bureau&rsquo;s rigorous authenticity standards (notarization, 
+        triplicate copies, processing fee).
+      </p>
     </footer>
     <script src="assets/js/main.js" defer></script>
   </body>
